@@ -41,6 +41,7 @@ const GivingCalculator = () => {
         <div style={{ marginBottom: '15px' }}>
           <label>Currency (e.g., USD, NGN, GBP): </label>
           <input 
+            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
             type="text" 
             value={currency} 
             onChange={(e) => setCurrency(e.target.value)} 
@@ -51,7 +52,8 @@ const GivingCalculator = () => {
 
         <div style={{ marginBottom: '15px' }}>
           <label>Income Amount: </label>
-          <input 
+          <input
+            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }} 
             type="text" 
             value={incomeInput} 
             onChange={(e) => setIncomeInput(e.target.value)} 
@@ -64,6 +66,7 @@ const GivingCalculator = () => {
         <div style={{ marginBottom: '15px' }}>
           <label>Giving Factor: </label>
           <input 
+            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
             type="number" 
             step="0.1"
             value={factor} 
@@ -88,6 +91,7 @@ const GivingCalculator = () => {
       <div>
         <label>How did we do (1-10)? </label>
         <input 
+          style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
           type="number" 
           value={feedback} 
           onChange={(e) => setFeedback(e.target.value)} 
