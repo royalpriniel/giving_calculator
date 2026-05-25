@@ -40,14 +40,8 @@ const GivingCalculator = () => {
       <form onSubmit={calculateGivings}>
         <div style={{ marginBottom: '0.75rem' }}>
           <label>Currency (e.g., USD, NGN, GBP): </label>
-<<<<<<< HEAD
-          <input 
-            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
-            type="text" 
-=======
           <input
 	    type="text"
->>>>>>> 8c786cb (update)
             value={currency} 
             onChange={(e) => setCurrency(e.target.value)} 
             placeholder="Enter currency"
@@ -57,8 +51,7 @@ const GivingCalculator = () => {
 
         <div style={{ marginBottom: '0.75rem' }}>
           <label>Income Amount: </label>
-          <input
-            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }} 
+          <input 
             type="text" 
             value={incomeInput} 
             onChange={(e) => setIncomeInput(e.target.value)} 
@@ -71,13 +64,8 @@ const GivingCalculator = () => {
         <div style={{ marginBottom: '0.75rem' }}>
           <label>Giving Factor: </label>
           <input 
-<<<<<<< HEAD
-            style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
-            type="number" 
-=======
 	    className= "num"
 	    type="number" 
->>>>>>> 8c786cb (update)
             step="0.1"
             value={factor} 
             onChange={(e) => setFactor(e.target.value)} 
@@ -101,11 +89,7 @@ const GivingCalculator = () => {
       <div>
         <label>How did we do (1-10)? </label>
         <input 
-<<<<<<< HEAD
-          style={{ width: '60%', height: "30px", fontSize: "1rem", padding:"0.5rem", boxSizing:"border-box" }}
-=======
 	  className= "num"
->>>>>>> 8c786cb (update)
           type="number" 
           value={feedback} 
           onChange={(e) => setFeedback(e.target.value)} 
