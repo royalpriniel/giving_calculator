@@ -12,9 +12,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.num{
+  width:2rem;
+}
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
+}
+
+input {
+  margin: auto;
+  text-align:center;
+  width: 7rem;
+  height: 2rem;
 }
 a {
   font-weight: 500;
@@ -29,14 +40,14 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 #root{
 
   display: flex;
   align-items: center;
-  justify-items: center;
-  border-sizing: border-box;
+  justify-content: center;
+  box-sizing: border-box;
   border: dashed blue 0.2rem;
   border-radius:0;
   width: 93%;
