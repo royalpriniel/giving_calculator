@@ -58,7 +58,7 @@ const GivingCalculator = () => {
             placeholder="e.g. 5000"
             required 
           />
-          <small style={{ display: 'block', color: '#666' }}>Digits only preferred, but we'll clean it up!</small>
+          <small style={{ display: 'block', color: '#5f5f5f' }}>Digits only preferred, but we'll clean it up!</small>
         </div>
 
         <div style={{ marginBottom: '0.75rem' }}>
