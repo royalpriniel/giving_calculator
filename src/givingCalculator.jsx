@@ -34,7 +34,7 @@ const GivingCalculator = () => {
   };
 
   return (
-    <div style={{padding: '1rem', fontFamily: 'sans-serif', maxWidth: '20rem', border: '0.05rem solid #ccc', borderRadius: '0.25rem', display: "flex", justifyContent: "center", alignItems: "center", flexDirection:"column" }}>
+    <div style={{ padding: '1rem', fontFamily: 'sans-serif', maxWidth: '20rem', border: '0.05rem solid #ccc', borderRadius: '0.25rem', display: "flex", justifyContent: "center", alignItems: "center", flexDirection:"column" }}>
       <h2 style={{textAlign: "center"}}>Giving Calculator</h2>
       
       <form onSubmit={calculateGivings}>
@@ -86,7 +86,7 @@ const GivingCalculator = () => {
 
       <hr style={{ backgroundColor: '#050', height: '0.3rem', width: '100%', margin: '3rem 0' }} />
 
-      <div>
+      <div >
         <label>How did we do (1-10)? </label>
         <input 
 	  className= "num"
