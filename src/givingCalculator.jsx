@@ -62,7 +62,7 @@ const GivingCalculator = () => {
         </div>
 
         <div style={{ marginBottom: '0.75rem' }}>
-          <label>Giving Factor: </label>
+          <label>Giving Factor (base is 10%): </label>
           <input 
 	    className= "num"
 	    type="number" 
@@ -71,6 +71,9 @@ const GivingCalculator = () => {
             onChange={(e) => setFactor(e.target.value)} 
             required 
           />
+                     <small style={{ color: '#5e5e5e' }}>
+            A factor of 1 = 10% givings. A factor of 2 = 20% givings.
+          </small>
         </div>
 
         <button type="submit" style={{ padding: '0.5rem 1rem', cursor: 'pointer' }}>
