@@ -71,7 +71,7 @@ const GivingCalculator = () => {
             onChange={(e) => setFactor(e.target.value)} 
             required 
           />
-                     <small style={{ color: '#5e5e5e' }}>
+                     <small style={{ color: '#5e5e5e', display: 'block'}}>
             A factor of 1 = 10% givings. A factor of 2 = 20% givings.
           </small>
         </div>
