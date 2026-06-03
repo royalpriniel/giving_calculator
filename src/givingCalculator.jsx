@@ -82,7 +82,7 @@ const GivingCalculator = () => {
       </form>
 
       {result && (
-        <div style={{ marginTop: '1rem', padding: '0.5rem', backgroundColor: '#f0f0f0' }}>
+        <div className="result">
           <strong>{result}</strong>
         </div>
       )}
