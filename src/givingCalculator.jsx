@@ -89,8 +89,9 @@ const GivingCalculator = () => {
 
       <hr style={{ backgroundColor: '#050', height: '0.3rem', width: '100%', margin: '3rem 0' }} />
 
-      <div >
+      <div style={{display: "flex", gap: "0.3rem", alignItems:"center", alignContent: "space-between", flexWrap: "wrap"}}>
         <label>How did we do (1-10)? </label>
+        <div style={{display:"flex", gap: "1rem"}}>
         <input 
 	  className= "num"
           type="number" 
@@ -98,9 +99,11 @@ const GivingCalculator = () => {
           onChange={(e) => setFeedback(e.target.value)} 
         />
         <button onClick={() => console.log("Feedback Score:", feedback)}>Submit</button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default GivingCalculator;
+
